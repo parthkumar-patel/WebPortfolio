@@ -1,28 +1,32 @@
 import {
     mobile,
-    backend,
+    // backend,
     creator,
     web,
     javascript,
-    typescript,
+    // typescript,
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
-    mongodb,
+    // mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    // docker,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
+    // carrent,
+    artwave,
     threejs,
+    UBC,
+    varsity,
+    chatsync,
+    // businesscard,
+    hangman
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +50,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Designer",
       icon: creator,
     },
   ];
@@ -72,18 +76,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,10 +96,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -108,63 +112,34 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Student worker",
+      company_name: "Open Kitchen (UBC)",
+      icon: UBC,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Served food and beverages to students with excellent customer service, resulting in a 95% satisfaction rating on student surveys.",
+        "Helped prepare ingredients for meals served to 100+ students in a timely manner, ensuring a consistent dining experience.",
+        "Collaborated with kitchen staff to streamline ingredient preparation processes."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Varisty Event Staff",
+      company_name: "UBC Athletics & Recreation",
+      icon: varsity,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sept 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Ensuring the professional execution of varsity sporting events including basketball, volleyball, football, hockey and soccer of the UBC Thunderbirds.",
+        "Contribute to the in-game atmosphere through promotions and fan engagement including greeting, way-finding etc."
       ],
     },
   ];
@@ -198,16 +173,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Art Wave",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A creative platform empowering users to share and showcase their artistic creations fostering a vibrant online art community.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: artwave,
+      source_code_link: "https://github.com/parthkumar-patel/Art-Gallery",
+    },
+    {
+      name: "Chat Sync",
+      description:
+        "A chatbot powered by ChatGPT's API within a Chrome extension, enriching online interactions with fluid responses.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +211,25 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: chatsync,
+      source_code_link: "https://github.com/loganihrishi/ChatSync",
     },
     {
-      name: "Job IT",
+      name: "Hangman",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A word-guessing fun game! Featuring both single-player and two-player modes, utilizing Java Swing GUI for an interactive user experience.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "SwingUI",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: hangman,
+      source_code_link: "https://github.com/parthkumar-patel/Hangman-Game",
     },
   ];
   
