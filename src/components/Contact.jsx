@@ -32,17 +32,17 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      .send(  
+        "service_52z3m9k",
+        "template_6fn7yub",
         {
           from_name: form.name,
-          to_name: "Parthkumar Patel",
+          to_name: "Parth Patel",
           from_email: form.email,
           to_email: "parthrp15@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "6bwc7JEUTgSgUzO0d"
       )
       .then(
         () => {
@@ -63,7 +63,9 @@ const Contact = () => {
         }
       );
   };
-
+  6bwc7JEUTgSgUzO0d
+  template_6fn7yub
+  service_52z3m9k
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
