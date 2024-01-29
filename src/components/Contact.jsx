@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -63,9 +63,7 @@ const Contact = () => {
         }
       );
   };
-  6bwc7JEUTgSgUzO0d
-  template_6fn7yub
-  service_52z3m9k
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
