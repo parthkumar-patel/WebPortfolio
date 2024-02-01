@@ -25,9 +25,9 @@ const Navbar = () => {
               setActive("");
               window.scrollTo(0,0);
             }}>
-              <img src={logo} alt="logo" className="w-20 h-20 object-contain absolute -mt-[10px] ml-[20px]" />
+              <img src={logo} alt="logo" className="w-20 h-20 object-contain absolute -mt-[10px] sm:-ml-[80px] -ml-[25px]" />
               <p className="text-secondary text-[18px]
-               cursor-pointer pl-20 ml-4">Parth Patel</p>
+               cursor-pointer pl-20 sm:-ml-[90px] -ml-[35px]">Parth Patel</p>
           </Link>
           <ul className="list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((Link) => (
